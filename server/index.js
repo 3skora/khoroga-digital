@@ -23,6 +23,7 @@ mongoose.connect(urlDB, connectionParams)
 
 
 //express middleware
+//new comment
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors())
